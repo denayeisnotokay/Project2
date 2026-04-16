@@ -19,3 +19,9 @@ dataset with directories already properly formatted
 - Top three features (RMSE, spectral flux, MFCC 0) used in combined novelty function
 - (Normalized) features simply added together in naive model
 - Weighted sum used in optimized model; weights were optimized using experimentation, then multi-variate gradient ascent
+
+### Extension Task
+
+- Use autocorrelation on improved novelty function
+- In the naive model pick the highest peak from beat histogram
+- In optimized model prioritize more common tempo values in peak picking (closer to average)
